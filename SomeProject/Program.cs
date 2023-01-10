@@ -90,6 +90,7 @@
                 if (map[posX,posY] == 'X')
                 {
                     map[posX, posY] = 'O';
+                    Console.Beep(400,100);
                     score++;
                 }
                 if (maxScore == score)
